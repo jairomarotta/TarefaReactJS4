@@ -1,0 +1,78 @@
+
+/*==================INI-LOGIN==================*/
+#principal {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	background-color: #6d9797;
+}
+
+#principal_conteudo {
+	width: 552px;
+	min-height: 500px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 0px 1em #000000;
+	-moz-box-shadow: 0px 0px 1em #00000;
+}
+
+#topo{
+	width: 552px;
+	min-height: 80px;
+	float: left;
+	background-color: #008B8B;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#entrada_texto{
+	width: 552px;
+	min-height: 30px;
+	margin-top: 10px;
+	float: right;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#tarefas{
+	width: 500px;
+	min-height: 390px;
+	margin-top: 130px;
+	background-color: #ffffff;
+	padding-left: 50px;
+}
+
+
+/*==================FIM-LOGIN==================*/
+
+body{
+	margin:0;
+}
+
+#imagem{
+	width: 200px;
+	height: 200 px;
+}
+
+.botao {
+	font-family: arial;
+	font-weight: bold;
+	color: #14396A !important;
+	font-size: 14px;
+	text-shadow: 1px 1px 0px #7CACDE;
+	box-shadow: 1px 1px 1px #BEE2F9;
+	padding: 10 25px;
+	border-radius: 10px;
+	border: 2px solid #3866A3;
+	background: #63B8EE;
+	background: linear-gradient(to top, #63B8EE, #468CCF);
+	width: 70px;
+  }
+  .botao:hover {
+	color: #14396A !important;
+	background: #468CCF;
+	background: linear-gradient(to top, #468CCF, #63B8EE);
+	width: 70px
+  }
